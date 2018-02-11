@@ -8,8 +8,8 @@ var app = express();
 
 app.use(express.static(publicPath));
 
-app.listen(3000, () => {
-    console.log('Server is up');
+app.listen(port, () => {
+    console.log(`Started on port ${port}`);
 });
 
 
